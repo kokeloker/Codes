@@ -15,7 +15,9 @@ string beta_reglas[3][5] = {
 	"A"		,"~A"		,"~A",		"A,B",		"A,~B",
 	"B"		,"~B"		,"B",		"~A,~B",	"~A,B"
 };
+string delta_reglas[3][2] = {
 
+};
 vector <string> getPremisas(string data){
 	int pos = 0;
 	int i;
