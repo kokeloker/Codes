@@ -19,6 +19,10 @@ string delta_reglas[2][2] = {
     "{#*}A",    "~{$*}A",
     "A",    "~A"
 };
+string gama_reglas[2][2] = {
+    "",    "",
+    "",    ""
+};
 vector <string> getPremisas(string data){
 	int pos = 0;
 	int i;
